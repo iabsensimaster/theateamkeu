@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard i-Ledger</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      background: #333;
+      color: white;
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 90%;
+      max-width: 500px;
+    }
+
+    .pt-button {
+      padding: 15px;
+      font-size: 18px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .pt-button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>i-Ledger Dashboard</h1>
+    <p>Pilih Login PT Anda</p>
+  </header>
+
+  <div class="container">
+    <button class="pt-button" onclick="location.href='https://ptsinarapijatayupermaiiledger.pages.dev/login'">
+      PT Sinarapi Jatayu Permai
+    </button>
+    <button class="pt-button" onclick="location.href='https://ptestusaemandiriiledger.pages.dev/login'">
+      PT Estu Sae mandiri
+    </button>
+    <button class="pt-button" onclick="location.href='https://ptgarutamagasutamailedger.pages.dev/login'">
+      PT Garutama Gas Utama
+    </button>
+  </div>
+</body>
+</html>
